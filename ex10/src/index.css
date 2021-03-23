@@ -21,21 +21,33 @@
   
   
   /* Side navigation links */
-  .sidenav a {
+  .nav-links a {
     color: white;
     padding: 16px;
     text-decoration: none;
     display: block;
+    -ms-text-size-adjust: auto;
   }
   
-  /* Change color on hover */
-  .sidenav a:hover {
-    background-color: #ddd;
-    color: black;
+  img {
+    height:240px;
+    width:120px;
+    float: left;
+    padding-left: 2%;
+    margin: 0 auto; 
+    padding: 10px 0;
+  }
+
+  header {
+      text-size-adjust: auto;
   }
   
   /* Style the content */
-  .content {
+  .main-section {
     margin-left: 200px;
     padding-left: 20px;
+  }
+
+  li code {
+      background-color: lightgray;
   }
